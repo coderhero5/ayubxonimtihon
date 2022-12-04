@@ -1,0 +1,530 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__block {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 20px 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__img {
+  max-width: 23px;
+  height: 23px;
+}
+
+.header__search {
+  max-width: 23px;
+  height: 23px;
+  border: none;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+  display: none;
+}
+@media screen and (max-width: 1017px) {
+  .header__search {
+    display: inline-block;
+  }
+}
+
+.header {
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+  border-radius: 0px 0px 40px 40px;
+  max-width: 1440px;
+  height: 695px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1010px) {
+  .header__block {
+    max-width: 734px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  }
+}
+
+.header__menu {
+  border: none;
+  display: none;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+@media screen and (max-width: 1017px) {
+  .header__menu {
+    display: inline-block;
+  }
+}
+
+.header__link {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Primary Color/Dark Blue */
+  color: #003459;
+}
+
+.header__input {
+  background: #FDFDFD;
+  border-radius: 46px;
+  padding: 12px 79px 12px 17px;
+  border: none;
+}
+@media screen and (max-width: 1017px) {
+  .header__input {
+    display: none;
+  }
+}
+
+.join__btn {
+  padding: 12px 28px 8px 28px;
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: flex-end;
+  /* Neutral Color/00 */
+  color: #FDFDFD;
+  background: #003459;
+  border-radius: 57px;
+  display: inline-block;
+}
+@media screen and (max-width: 1017px) {
+  .join__btn {
+    display: none;
+  }
+}
+
+.header__list {
+  display: flex;
+}
+@media screen and (max-width: 1017px) {
+  .header__list {
+    display: none;
+  }
+}
+
+.header__item + .header__item {
+  margin-left: 48px;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  /* identical to box height, or 144% */
+  color: #002A48;
+}
+@media screen and (max-width: 1017px) {
+  .header__title {
+    display: none;
+  }
+}
+
+.container {
+  margin-bottom: 33px;
+}
+
+.hero__container {
+  max-width: 1180px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero__title {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+  /* identical to box height, or 113% */
+  text-transform: capitalize;
+  /* Primary Color/Dark Blue 80 */
+  color: #002A48;
+  padding-top: 47px;
+  max-width: 465px;
+}
+
+.box__title {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  /* identical to box height, or 130% */
+  text-transform: capitalize;
+  /* Primary Color/Dark Blue 80 */
+  color: #002A48;
+  padding-top: 4px;
+  margin-bottom: 24px;
+  max-width: 452px;
+}
+
+.hero__text {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  /* Neutral Color/80 */
+  color: #242B33;
+  max-width: 480px;
+}
+
+.hero__link {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* Primary Color/Dark Blue */
+  color: #003459;
+  order: 0;
+  flex-grow: 0;
+  border: 1.5px solid #003459;
+  border-radius: 57px;
+  display: inline-block;
+  padding: 14px 31px 10px 28px;
+}
+
+.hero__link {
+  margin-top: 34px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 165px;
+  height: 48px;
+}
+
+.hero__link2 {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: flex-end;
+  display: inline-block;
+  /* Neutral Color/00 */
+  color: #FDFDFD;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #003459;
+  border-radius: 57px;
+  padding: 14px 28px 10px;
+  margin-top: 34px;
+  margin-left: 20px;
+}
+
+.hero__box21 {
+  background-image: url(../img/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated\ 1\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 730px;
+  height: 550px;
+}
+@media screen and (max-width: 1117px) {
+  .hero__box21 {
+    padding-right: 1030px;
+  }
+}
+
+.hero__block {
+  max-width: 11180px;
+  height: 562px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1117px) {
+  .hero__block {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.inner__box {
+  display: flex;
+}
+
+@media screen and (max-width: 1117px) {
+  .hero__box {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .header {
+    height: 1050px;
+  }
+}
+@media screen and (max-width: 542px) {
+  .header {
+    height: 1190px;
+  }
+}
+
+.main {
+  max-width: 1440px;
+  height: 968px;
+}
+
+.main__container {
+  max-width: 1280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main__text {
+  padding-top: 60px;
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.main__title {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: flex-end;
+  text-transform: capitalize;
+  /* Primary Color/Dark Blue */
+  color: #003459;
+  margin-bottom: 36px;
+}
+
+.item {
+  padding: 8px 8px 20px 8px;
+  background: #FDFDFD;
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.main__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin-bottom: 28px;
+}
+
+.item__title {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: flex-end;
+  /* Neutral Color/100 */
+  color: #00171F;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.item__text {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  /* Neutral Color/60 */
+  color: #667479;
+  margin-bottom: 4px;
+}
+
+.main__span {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  align-items: flex-end;
+  /* Neutral Color/100 */
+  color: #00171F;
+}
+
+.main__item:hover {
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 591px) {
+  .main__list {
+    justify-content: center;
+  }
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.main__list {
+  margin-bottom: 60px;
+}
+
+.friend {
+  background-image: url(../img/Banner.png);
+  max-width: 1180px;
+  background-repeat: no-repeat;
+  height: 378px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  padding-left: 140px;
+}
+
+@media screen and (max-width: 1117px) {
+  .friend {
+    margin-top: 460px;
+    background-image: url(../img/Banner\ \(1\).png);
+    max-width: 572px;
+    height: 640px;
+  }
+}
+@media screen and (max-width: 869px) {
+  .friend {
+    margin-top: 860px;
+  }
+}
+@media screen and (max-width: 591px) {
+  .friend {
+    margin-top: 2480px;
+    background-image: url(../../img/Banner\ \(2\).png);
+    max-width: 582px;
+    height: 640px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .friend {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .friend__box {
+    margin-top: 380px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero__box21 {
+    width: 414px;
+    height: 386px;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .header {
+    height: 980px;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .box {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .friend__title {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+.bir {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 584px) {
+  .friend__box {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 584px) {
+  .box__title .friend__box {
+    max-width: 236px;
+  }
+}
+
+.friend__list {
+  margin-top: 80px;
+}
+
+.friend__link1 {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  align-items: flex-end;
+  /* Primary Color/Dark Blue 80 */
+  color: #002A48;
+  gap: 30px;
+  margin-top: 18px;
+  background: #FCEED5;
+  border-radius: 8px;
+  padding: 6px 10px 4px;
+}/*# sourceMappingURL=main.css.map */

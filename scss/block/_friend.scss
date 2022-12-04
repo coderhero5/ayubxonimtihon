@@ -1,0 +1,106 @@
+.friend{
+    background-image: url(../img/Banner.png);
+    max-width: 1180px;
+    background-repeat: no-repeat;
+    height: 378px;
+    margin: 0 auto;  
+    margin-top:60px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.box{
+    padding-left: 140px;
+}
+.friend{
+    @media screen and (max-width:1117px){
+        margin-top: 460px;
+        background-image: url(../img/Banner\ \(1\).png);
+        max-width: 572px;
+        height: 640px;
+    }
+    @media screen and (max-width:869px){
+        margin-top: 860px;
+    }
+    @media screen and (max-width:591px){
+        margin-top: 2480px;
+        background-image: url(../../img/Banner\ \(2\).png);
+        max-width: 582px;
+        height:640px;
+    }
+    @media screen and (max-width:1020px){
+        
+        flex-direction: column-reverse;
+    }
+}
+.friend__box{
+    @media screen and (max-width:1020px){
+        margin-top: 380px;
+    }
+
+}
+.hero__box21{
+    @media screen and (max-width:540px){
+        width: 414px;
+        height: 386px;
+    }
+}
+.header{
+    @media screen and (max-width: 542px){
+        height: 980px;
+    }
+ 
+   
+}
+.box{    
+    @media screen and (max-width: 582px){
+        padding-left: 0;
+}
+    
+}
+.friend__title{
+    @media screen and (max-width: 542px){
+        padding-top: 0;
+        margin-top: 0;
+}
+}
+.bir{
+    padding-top:0;
+    margin-top: 0;
+}
+@media screen and (max-width: 584px){
+    .friend__box {
+        margin-top: 0px;
+    }
+}
+.box__title{
+    @media screen and (max-width: 584px){
+        .friend__box {
+            max-width: 236px;
+        }
+}
+}
+.friend__list{
+    margin-top: 80px;
+}
+.friend__link1{
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: flex-end;
+
+/* Primary Color/Dark Blue 80 */
+
+color: #002A48;
+gap: 30px;
+margin-top: 18px;
+background: #FCEED5;
+border-radius: 8px;
+padding: 6px 10px 4px;
+}

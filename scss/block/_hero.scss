@@ -1,0 +1,153 @@
+.hero__container{
+    max-width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero__title{
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 68px;
+/* identical to box height, or 113% */
+
+text-transform: capitalize;
+
+/* Primary Color/Dark Blue 80 */
+
+color: #002A48;
+padding-top: 47px;
+max-width: 465px;
+}
+.box__title{
+    
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 60px;
+/* identical to box height, or 130% */
+
+text-transform: capitalize;
+
+/* Primary Color/Dark Blue 80 */
+
+color: #002A48;
+padding-top: 4px;
+margin-bottom: 24px;
+max-width: 452px;
+}
+.hero__text{
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Neutral Color/80 */
+
+color: #242B33;
+max-width: 480px;
+}
+.hero__link{
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+/* Primary Color/Dark Blue */
+
+color: #003459;
+
+order: 0;
+flex-grow: 0;
+border: 1.5px solid #003459;
+border-radius: 57px;
+display: inline-block;
+padding: 14px 31px 10px 28px;
+}
+.hero__link{
+    margin-top: 34px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 165px;
+    height: 48px;
+    
+}
+.hero__link2{
+    font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: flex-end;
+display: inline-block;
+/* Neutral Color/00 */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #003459;
+border-radius: 57px;
+padding: 14px 28px 10px;
+margin-top: 34px;
+margin-left: 20px;
+}
+.hero__box21{
+    background-image: url(../img/good-humored-woman-holds-dog-laughing-pink-background-emotional-sort-haired-girl-grey-hoodie-poses-with-corgi-isolated\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 550px;
+    @media screen and (max-width:1117px) {
+    
+        padding-right: 1030px;
+    }
+
+   
+}
+
+
+.hero__block{
+    max-width: 11180px;
+    height: 562px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:1117px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+}
+.inner__box{
+    display: flex;
+}
+.hero__box{
+    @media screen and (max-width:1117px) {
+        margin-left: 10px;
+        
+    }
+}
+.header{
+    @media screen and (max-width:1115px) {
+        height: 1050px;
+    }
+    @media screen and (max-width:542px) {
+        height: 1190px;
+    }
+}
